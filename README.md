@@ -2,9 +2,9 @@
 
 ## Description
 
-`pbe` is a Python package to solve population balance equations (PBE) for one- and two-component aggregation processes using the (extended) fixed pivot method. 
+`pbe` is a Python package to solve population balance equations (PBE) for one- and two-component aggregation processes using the (extended) fixed pivot method. For single component systems, the code implements the method of [Kumar & Ramkrishna (1996)](https://doi.org/10.1016/0009-2509(96)88489-2), and for bivariate aggregation the method of [Vale & McKenna (2005)](https://doi.org/10.1021/ie050179s).
 
-## Numerical method
+## Underlying PBE
 
 If the system is spatially homogeneous, a two-component aggregation process is described by the following PBE:
 
@@ -12,7 +12,7 @@ If the system is spatially homogeneous, a two-component aggregation process is d
 
 where <img src="https://latex.codecogs.com/svg.latex?\inline&space;n(x,y,t)&space;dx&space;dy" title="n(x,y,t) dx dy" /> is the number of particles of state <img src="https://latex.codecogs.com/svg.latex?\inline&space;(x,y)" title="(x,y)" /> per unit volume at time <img src="https://latex.codecogs.com/svg.latex?t" title="t" /> and <img src="https://latex.codecogs.com/svg.latex?\beta&space;(x,y;x',y';t)" title="\beta (x,y;x',y';t)" /> is the aggregation rate coefficient. The internal coordinates <img src="https://latex.codecogs.com/svg.latex?x" title="x" /> and <img src="https://latex.codecogs.com/svg.latex?y" title="y" /> denote the amount (mass, moles, etc.) of each component in the particle.
 
-For single component systems, the code implements the method of [Kumar & Ramkrishna (1996)](https://doi.org/10.1016/0009-2509(96)88489-2), and for bivariate aggregation the method of [Vale & McKenna (2005)](https://doi.org/10.1021/ie050179s).
+
 
 ## Installation
 
