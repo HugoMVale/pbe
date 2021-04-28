@@ -1,4 +1,6 @@
-# pbe
+## Status
+
+`pbe` is currently being developed and not yet ready for use.
 
 ## Description
 
